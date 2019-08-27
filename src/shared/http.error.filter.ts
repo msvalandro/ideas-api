@@ -21,7 +21,7 @@ export class HttpErrorFilter implements ExceptionFilter {
       method: request.method,
       message: exception.message.error || exception.message || null,
     };
-
+    console.log(errorResponse);
     Logger.error(
       `${request.method} ${request.url}`,
       JSON.stringify(errorResponse),
