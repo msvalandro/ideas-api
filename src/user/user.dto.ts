@@ -11,6 +11,7 @@ export class UserDTO {
 export class UserRO {
   id: string;
   username: string;
-  create: Date;
+  created: Date;
+  updated: Date;
   token?: string;
 }

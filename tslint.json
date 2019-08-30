@@ -2,7 +2,7 @@
   "defaultSeverity": "error",
   "extends": ["tslint:recommended"],
   "jsRules": {
-    "no-unused-expression": true
+    "no-unused-expression": false
   },
   "rules": {
     "quotemark": [true, "single"],
@@ -13,7 +13,8 @@
     "interface-name": [false],
     "arrow-parens": false,
     "object-literal-sort-keys": false,
-    "max-classes-per-file": false
+    "max-classes-per-file": false,
+    "no-unused-expression": false
   },
   "rulesDirectory": []
 }
